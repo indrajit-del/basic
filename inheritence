@@ -1,0 +1,36 @@
+public class TestInheritence {
+	public static void main(String[] args) {
+		Student adam=new Student("Adam","Walter",2021,8.5);
+		adam.print();
+	}
+}
+rajkd1:15 PM
+bhi
+ki kor6i
+Modan da1:16 PM
+ami tomaka chara bacbO NA
+devil1:16 PM
+chup
+Samrat Chowdhury1:16 PM
+public class TestPolymorphisim {
+		public static void main(String[] args) {
+			Person persons[]=new Person[3];
+			persons[0] = new Student("Adam","Walter",2021,8.5);
+			persons[1] = new Student("Bill","Gates",2022,9.5);
+			persons[2] = new Professor("Soma","Gupta");
+			
+			for(Person person : persons) {
+				person.print();
+			}
+			
+		}
+}
+
+
+
+public class TestOverride {
+	public static void main(String[] args) {
+		Professor knowIt=new Professor("Soma","Gupta");
+		knowIt.print();
+	}
+}
